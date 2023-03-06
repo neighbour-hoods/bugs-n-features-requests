@@ -11,7 +11,6 @@ body:
     - label: I have searched the existing issues
       required: true
 - type: input
-  id: repo 
   attributes:
     label: Link to Repo 
     description: In what Github repository did you find this bug on? 
