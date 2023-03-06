@@ -10,13 +10,6 @@ body:
     options:
     - label: I have searched the existing issues
       required: true
-- type: input
-  attributes:
-    label: Link to Repo 
-    description: In what Github repository did you find this bug on? 
-    placeholder: ex.: https://github.com/neighbour-hoods/sensemaker-lite 
-  validations:
-    required: false
 - type: textarea
   attributes:
     label: Current Behavior
