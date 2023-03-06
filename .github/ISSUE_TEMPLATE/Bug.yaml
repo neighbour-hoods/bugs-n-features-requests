@@ -10,6 +10,13 @@ body:
     options:
     - label: I have searched the existing issues
       required: true
+- type: input
+  attributes:
+    label: Referred Repo 
+    description: In what repo did you fing this issue? 
+    placeholder: ex. https://github.com/neighbour-hoods/sensemaker-lite
+  validations:
+    required: false
 - type: textarea
   attributes:
     label: Current Behavior
